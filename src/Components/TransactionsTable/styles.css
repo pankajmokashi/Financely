@@ -1,0 +1,66 @@
+.table{
+        width: calc(100% - 4rem);
+        margin: 0rem 2rem;
+}
+
+.input-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: calc(100% - 1rem);
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.input-flex input{
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+    border: 0;
+}
+
+.input-flex input:focus{
+    outline: none;
+}
+
+.select-input{
+    width: 30%;
+    margin-right: 10;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem !important;
+    padding: 0.2rem 0.5rem;
+}
+
+.select-input-2 > div{
+    border-width: 0px !important;
+    border-bottom-width: 1px !important;
+    border-radius: 0 !important;
+    border-color: #000 !important;
+}
+
+.select-input > div{
+    border: 0px solid #fff !important;
+}
+
+.my-table{
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem !important;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.table-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.dashboard-container{
+    padding-bottom: 1rem;
+}

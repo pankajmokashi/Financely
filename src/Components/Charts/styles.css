@@ -1,0 +1,8 @@
+.chart{
+    margin: 2rem;
+    padding: 1rem;
+    width: calc(100% - 6rem);
+    box-shadow: var(--shadow);
+    overflow-y: scroll;
+    border-radius: 0.5rem;
+}
